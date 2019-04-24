@@ -1,0 +1,4 @@
+FUNC=image
+METHOD=POST
+ENTRYPOINT=image
+ENV=nodejs

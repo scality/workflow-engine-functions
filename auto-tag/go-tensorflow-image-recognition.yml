@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: go-tensorflow-image-recognition
+  labels:
+    app: go-tensorflow-image-recognition
+spec:
+  containers:
+  - name: go-tensorflow-image-recognition
+    image: vrancurel/go-tensorflow-image-recognition
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-tensorflow-image-recognition
+spec:
+  selector:
+    app: go-tensorflow-image-recognition
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080

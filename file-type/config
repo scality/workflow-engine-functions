@@ -1,0 +1,4 @@
+FUNC=file-type
+METHOD=POST
+ENTRYPOINT=fileType
+ENV=nodejs

@@ -1,0 +1,11 @@
+{
+  "name": "fission-nodejs-runtime",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "aws-sdk": "*",
+    "request": "*",
+    "exec": "*"
+  }
+}

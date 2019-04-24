@@ -1,0 +1,4 @@
+FUNC=auto-tag
+METHOD=POST
+ENTRYPOINT=autoTag
+ENV=nodejs

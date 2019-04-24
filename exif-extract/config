@@ -1,0 +1,4 @@
+FUNC=exif-extract
+METHOD=POST
+ENTRYPOINT=exifExtract
+ENV=nodejs
